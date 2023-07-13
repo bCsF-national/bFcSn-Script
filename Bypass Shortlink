@@ -36,7 +36,7 @@
 // @include /^(https?:\/\/)(linkshor|cortlink|moneylink)(\.tk)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(madfaucet|mineshor)(\.tk)(\/.*)/
 // @include /^(https?:\/\/)(onimports|link.encurtaon|economiarelevante)(\.com\.br)(\/.*)/
-// @include /^(https?:\/\/)(.+)?(kiiw|passgen|wordcounter|shrink|revcot|clickzu|shortzu|flyzu|cpm|viply)(\.icu)(\/.*)/
+// @include /^(https?:\/\/)(.+)?(kiiw|passgen|wordcounter|shrink|revcot|clickzu|shortzu|flyzu|cpm|viply|v2p)(\.icu)(\/.*)/
 // @include /^(https?:\/\/)(tny|tinyurl)(\.so)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(zshort|claimcrypto|cashearn|1ink|linkpay|moneylink|intnews|openload|linkspy|letsupload|linx|upvid|adurly|getlink|stfly)(\.cc)(\/.*)/
 // @include /^(https?:\/\/)(exey|ezlinks|techmody|ouo|uploady|racaty|1short|earnlink|casinotructuyen|vn88|blitly|getdashcoin|saly|cuty|oke|letsupload|eio|oii|exe|viplinks|shrinkme|gofile|apkmody)(\.io)(\/.*)/
