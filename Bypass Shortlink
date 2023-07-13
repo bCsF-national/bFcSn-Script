@@ -216,7 +216,6 @@
     bFcSnblogger('link.modmakers.xyz', 'token', 'https://v.earnl.xyz/');
     bFcSnblogger('ww1.linktrims.com', 'link', 'https://linktrims.com/');
     bFcSnblogger('tecnicalboy.com', 'link', 'https://my.linkbnao.com/');
-    //bFcSnblogger('coinsrev.com', 'adlinkfly', 'https://en.revly.click/');
     bFcSnblogger('market.finclub.in', 'link', 'https://go.tnshort.net/');
     bFcSnblogger('hostadviser.net', 'token', 'https://go.hipsonyc.com/');
     bFcSnblogger('bantenexis.com', 'link', 'https://link.youshort.net/');
@@ -408,15 +407,7 @@
     default: break;} })(new URL(location.href)); if (l) {location.href = l; }
     waitForElm('div#wpsafe-link > a', function(element) {const regex = /redirect=(.*)',/;const m = regex.exec(element.onclick.toString())[1]; location.href = JSON.parse(atob(m)).safelink;});
     waitForElm('a.s-btn-f', smp => redirect(smp.href, false));
-    // if the sites below not working , Please Read my Script info , don't forget to Like and Follow my TikTok , Thanks
     BypassedBybFcSnblogger(/mdn.lol/, function() {EnableRCF();if (elementExists('.g-recaptcha')) {let mdn = setInterval(() => {if (Captchacheck()) {clearInterval(mdn);click('div form button');}}, 1 * 1000);}else{setTimeout(() => {click('div form center button');}, 11 * 1000);}});
-    //BypassedBybFcSnblogger(/coinsvalue.net/, function() {EnableRCF();if (elementExists('.g-recaptcha')) {let csv = setInterval(() => {if (Captchacheck()) {clearInterval(csv);click("button[id^='irsab']");}}, 1 * 1000);}else{setTimeout(() => {click("button[id^='irsab']");}, 19 * 1000);}});
-    //BypassedBybFcSnblogger(/cookinguide.net/, function() {EnableRCF();if (elementExists('.g-recaptcha')) {let ckg = setInterval(() => {if (Captchacheck()) {clearInterval(ckg);click("button[id^='ibmab']");}}, 1 * 1000);}else{setTimeout(() => {click("button[id^='ibmab']");}, 19 * 1000);}});
-    //BypassedBybFcSnblogger(/freeoseocheck.com/, function() {EnableRCF();if (elementExists('.g-recaptcha')) {let fsc = setInterval(() => {if (Captchacheck()) {clearInterval(fsc);click("button[id^='iscab']");}}, 1 * 1000);}else{setTimeout(() => {click("button[id^='iscab']");}, 19 * 1000);}});
-    //BypassedBybFcSnblogger(/wiki-topia.com|carsmania.net/, function() {EnableRCF();if (elementExists('.g-recaptcha')) {let wtp = setInterval(() => {if (Captchacheck()) {clearInterval(wtp);click("button[id^='icuab']");}}, 1 * 1000);}else{setTimeout(() => {click("button[id^='icuab']");}, 19 * 1000);}});
-    //BypassedBybFcSnblogger(/insurancegold.in|carstopia.net/, function() {EnableRCF();if (elementExists('.g-recaptcha')) {let isg = setInterval(() => {if (Captchacheck()) {clearInterval(isg);click("button[id^='isuab']");}}, 1 * 1000);}else{setTimeout(() => {click("button[id^='isuab']");}, 19 * 1000);}});
-    //BypassedBybFcSnblogger(/cryptowidgets.net|makeupguide.net/, function() {EnableRCF();if (elementExists('.g-recaptcha')) {let cwg = setInterval(() => {if (Captchacheck()) {clearInterval(cwg);click("button[id^='iplab']");}}, 1 * 1000);}else{setTimeout(() => {click("button[id^='iplab']");}, 19 * 1000);}});
-    // if the sites above not working , Please Read my Script info , don't forget to Like and Follow my TikTok , Thanks
     BypassedBybFcSnblogger(/ouo.today/, function() {location.href = nextUrl;});
     BypassedBybFcSnblogger(/upload.ee/, function() {ClickIfExists('#d_l', 2);});
     BypassedBybFcSnblogger(/appdrive.me/, function() {ClickIfExists('#drc', 2);});
@@ -536,7 +527,6 @@
     BypassedBybFcSnblogger(/proviralhost.com/, function() {ClickIfExists('#wait1button', 3);ClickIfExists('#wait2button', 5, 'setInterval');});
     BypassedBybFcSnblogger(/send.cm|racaty.net|files.im|sharemods.com|racaty.io|modsbase.com/, function() {ClickIfExists('#downloadbtn', 1);});
     BypassedBybFcSnblogger(/gdtot.cfd/, function() {waitForElm('#dirdown',gdt => redirect(strBetween(gdt.onclick.toString(),`myDl('`,`')`)));});
-    BypassedBybFcSnblogger(/revly.click/, function() {if (elementExists('#captchaShortlink')) {} else {SubmitIfExists('div.col-md-12 form',2);}});
     BypassedBybFcSnblogger(/files.fm/, function() {waitForElm('#head_download__all-files > div > div > a:nth-child(1)',flBtn => flBtn.click());});
     BypassedBybFcSnblogger(/dataupload.net/, async function() {await new Promise(resolve => setTimeout(resolve, 5*1000));click('.downloadbtn');});
     BypassedBybFcSnblogger(/altblogger.net/, function() {ClickIfExists('.form-send.m-2.btn-captcha.btn-outline-primary.btn', 3, 'setInterval');});
@@ -546,7 +536,6 @@
     BypassedBybFcSnblogger(/blog.miuiflash.com/, function() {SubmitIfExists('#reform',3);waitForElm('#anonIt', bmf => redirect(bmf.src, false));});
     BypassedBybFcSnblogger(/upload-4ever.com/, function() {ClickIfExists("input[name='method_free']", 2);ClickIfExists('#downLoadLinkButton', 5);});
     BypassedBybFcSnblogger(/apkmody.io/, function() {if (elementExists('div.wp-block-buttons > div')) {location = location.href + '/download/mod';}});
-    //BypassedBybFcSnblogger(/coinsrev.com/, ()=>{waitForElm("form[id^='revly'] > input", csr => redirect(JSON.parse(atob(csr.value)).linkr, false));});
     BypassedBybFcSnblogger(/ac.totsugeki.com/, function() {$("a[target='_blank']").removeAttr("target");ClickIfExists('.btn-lg.btn-success.btn', 2);});
     BypassedBybFcSnblogger(/fexkomin.xyz/, function() {$("a[target='_blank']").removeAttr("target");ClickIfExists('.btn-captcha.btn-danger.btn', 3);});
     BypassedBybFcSnblogger(/offrcms.xyz|kooora365.online|tourismtravels4.sbs|5tl.co/, () => waitForElm('a#proceed', offr => redirect(offr.href, false)));
