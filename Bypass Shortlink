@@ -152,8 +152,8 @@
 //              My Blog is Very Important to give some Delay for safe away ,Track New Shortlinks , Broken Bypass etc...
 // =================================================================================================================================================================
 (function(){'use strict';
-    const valdelay = 8 ; // Change the number from 5 to 10 or 20 if you have issues like Your action marked Suspicious,Don't try to bypass ,Don't use Speedster, etc
-    const valbwall = 8 ; // Please Remember , My Scripts is better with Firefox Browser and Violentmonkey Extension
+    const valdelay = 8 ; 
+    const valbwall = 8 ; 
     const bp = query => document.querySelector(query);const BpAll = query => document.querySelectorAll(query);const elementExists = query => bp(query) !== null;const domainCheck = domains => new RegExp(domains).test(location.host);const BpParams = new URLSearchParams(location.search);const RexBp = new RegExp(/^\?([^&]+)/);
     function BpBlock() {return 1;}
     function click(query) {bp(query).click();}
@@ -350,7 +350,7 @@
     } else if (h.pathname === '/' && h.searchParams.has('url') && h.href.includes('gos2.urlcash')) {window.location.assign('https://urlcash.click'+ (location.search).substring(31));
     } else if (h.pathname === '/' && h.href.includes('undefined')) {result.link = h.searchParams.get('url').replace('undefined', 'Bypass Error ') + alert('Sorry... Error Bypassing , Please Try Again or Leave Your Link in the Feedback , So When I Have Time , I will Fix it if i can , Thanks'); return result;
     } else if (h.pathname === '/' && h.searchParams.has('url')) {result.link = h.searchParams.get('url').replace('&m=1', '').replace('<br />', ''); result.redirectDelay = valdelay; result.isNotifyNeeded = true; return result; } break; default: break;}})(new URL(location.href));
-    if (bas) { const { isNotifyNeeded, redirectDelay, link } = bas;if (isNotifyNeeded) { notify(`Please Wait in ${redirectDelay} Seconds Before Going to the Destination. Don't Forget to Whitelist My Blog from Your Adblocker , Thanks`);} setTimeout(() => {location.href = link;}, redirectDelay * 1000);}
+    if (bas) { const { isNotifyNeeded, redirectDelay, link } = bas;if (isNotifyNeeded) { notify(`Please Wait in ${redirectDelay} Seconds Before Going to the Destination. Thanks`);} setTimeout(() => {location.href = link;}, redirectDelay * 1000);}
     (async function() {function elementReady(selector) {return new Promise(function(resolve, reject) {let element = bp(selector);if (element) {resolve(element); return;} new MutationObserver(function(_, observer) {element = bp(selector);if (element) {resolve(element);observer.disconnect();}}).observe(document.documentElement, {childList: true, subtree: true});});} function sleep(ms) {return new Promise((resolve) => setTimeout(resolve, ms));}
     let Web1list = ['biendo.win','bemom.com.vn','mg188.asia','88betbongda.com','sodovns.com','mg188.win','iwin68m.com','sv388.ac','vn88goat.com','linkbong88moinhat.org','69vn.info','w88linkz.com','vn88.cam','vn88.io','w88.ong','nguyenvanbao.com','heenglish.com','vailonxx.com','bigone.vn','hocreview.com','casinotructuyen.io','kienvang.vn','fun88.bio','sodo66vn.com','fun88.wtf','nhacaiuytin.ac','asideway.com','1gom.shop','sodocasino68z.com','nghiencar.com','w88vnz.net','88bet1.club','bk8goat.com','rodjulian.com','www.hereofamily.com','anhdep24.com','sunflowersteiner.edu.vn','www.covemarkets.com','cuanhapkhau.com','w88th2.com','khoruou-gourmet.com','ku11net.co','pennbookcenter.com','hocbeauty.com','fidlarmusic.com','www.rezence.com','publicananker.com','silcot.com.vn','lucidcam.com','hookeaudio.com'];
     if (Web1list.includes(location.host)) {let webbtn = await elementReady('#dirrect-countdown-1s > button');webbtn.click();let web1btn = await elementReady('#dirrect-code-1s span');web1btn.click();}
