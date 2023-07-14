@@ -5,9 +5,19 @@
 // @author       bFsCnBlogger
 // @run-at       document-body
 // @grant        none
-// @description  Bypass Shortlinks Fly.inc no need to focus
-// @include /^(https?:\/\/)(thumb8|thumb9|crewbase|crewus|shinchu|shinbhu|ultraten|uniqueten|topcryptoz|allcryptoz)(\.net)(\/.*)/
-// @include /^(https?:\/\/)(batmanfactor|phineypet|talkforfitness)(\.com)(\/.*)/
+// @match       *://thumb8.net/*
+// @match       *://thumb9.net/*
+// @match       *://crewbase.net/*
+// @match       *://crewus.net/*
+// @match       *://shinchu.net/*
+// @match       *://shinbhu.net/*
+// @match       *://ultraten.net/*
+// @match       *://uniqueten.net/*
+// @match       *://topcryptoz.net/*
+// @match       *://allcryptoz.net/*
+// @match        *://batmanfactor.com/*
+// @match        *://phineypet.com/*
+// @match        *://talkforfitness.com/*
 // ==/UserScript==
 
 (function(){
