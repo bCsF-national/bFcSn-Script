@@ -5,6 +5,7 @@
 // @author       bFsCnBlogger
 // @run-at       document-body
 // @grant        none
+// @description  Bypass Fly.inc no need focus
 // @match       *://thumb8.net/*
 // @match       *://thumb9.net/*
 // @match       *://crewbase.net/*
