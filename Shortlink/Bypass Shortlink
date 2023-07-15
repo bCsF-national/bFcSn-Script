@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Shortlink
 // @namespace    Violentmonkey Script
-// @version      14.5.0
+// @version      14.5.1
 // @author       bFsCnBlogger
 // @run-at       document-start
 // @antifeature  tracking
@@ -43,7 +43,7 @@
 // @include /^(https?:\/\/)(.+)?(linkfly|usalink|shorti|datacheap)(\.io)(\/.*)/
 // @include /^(https?:\/\/)(cryptoad|wikile|uploadev|mega4upr|cshort|payskip|homeairquality|shortearn|roll.btc25|sl.btc25|earnsfly|sl2.btc25|bugatti.eu|linkbong88moinhat|oploverz|kusonime|komikindo|readbitcoin|multiup)(\.org)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(medipost|shrinkurl|keeplinks|rajdlsg|writedroid.eu|modmania.eu)(\.org)(\/.*)/
-// @include /^(https?:\/\/)(jameeltips|mitly|adfoc|link4fun|shrinke|siiu)(\.us)(\/.*)/
+// @include /^(https?:\/\/)(jameeltips|mitly|adfoc|link4fun|shrinke|siiu|vzu)(\.us)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(yalla-shoot-now|forexeen|jaelink|link2u)(\.us)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(adshort|1bit|2the|careerhunter|galaxy-link|adz7short|oscut|cryptonworld|dutchycorp)(\.space)(\/.*)/
 // @include /^(https?:\/\/)(noweconomy|deportealdia|adshort|ay|pngit|pndx|tyzen|shivshakti)(\.live)(\/.*)/
@@ -234,7 +234,6 @@
     bFcSnblogger('niinga.com', 'get', 'https://eigsense.eda-ah.com/?get1=');
     bFcSnblogger('videoslyrics.com', 'postid', 'https://ser3.crazyblog.in/');
     bFcSnblogger('videolyrics.in', 'p', 'https://videoslyrics.com/?postid=');
-    bFcSnblogger('sahityt.com', 'token', 'https://blog.gadgetsreview27.com/');
     bFcSnblogger('mmdrive.xyz', 'link', 'https://techleets.xyz/no.php?link=');
     bFcSnblogger('linkshortifyx.link', 'link', 'https://yo.linkshortify.net/');
     bFcSnblogger('dealprice.co', 'adlinkfly', 'https://cryptorotator.website/');
