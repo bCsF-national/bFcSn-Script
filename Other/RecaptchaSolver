@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Recaptcha Solver
 // @namespace    bFsCn Scripts
-// @version      14.1
+// @version      14.2
 // @description  Automatically solves Recaptcha with audio methode
 // @author       bFsCnBlogger
 // @match        *://*/recaptcha/*
