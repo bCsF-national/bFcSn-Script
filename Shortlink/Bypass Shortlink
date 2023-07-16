@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Shortlink
 // @namespace    Violentmonkey Script
-// @version      14.5.1t
+// @version      14.5.2
 // @author       bFsCnBlogger
 // @run-at       document-start
 // @antifeature  tracking
