@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Shortlink
 // @namespace    Violentmonkey Script
-// @version      14.6.2
+// @version      14.6.2.0
 // @author       bFsCnBlogger
 // @run-at       document-start
 // @antifeature  tracking
@@ -23,7 +23,7 @@
 // @include /^(https?:\/\/)(girls-like|gobits|zoss|shrinke|tlin|terafly|petafly|gigafly|adnews|papanews|panyflay|mozzfly|shortus|short.croclix|best-news|4cash|mega-news|wildblog|dddrive|linkpoi|m.newhit|mboost|linkshorts|exafly|nonofly|lozzfly|uptomega|stfly|adbull|youshort|health-and|cutx|adsk|linkfly|appdrive|shorter.earn-hub|pkin|cashando|hunterkiller|acortalink|ar-goal|linkdam|adzully|adbully|zumpa|botfly|weezo|gtlinks|krownlinks|blog24|sh24|slfly|dbree|linkmay|go.skiplink)(\.me)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(theconomy|richlink|qnix|hatelink|rb7)(\.me)(\/.*)/
 // @include /^(https?:\/\/)(newforex|wplink|nbyts|wealthystyle|clicksfly|happy-living|webcoin.coinrain|teacherana|earnow|earn-cash|yourtechnology|apks|network-earn|shopforex|o-pro|wedocrypto|softindexsite|ea-shorter.earn-hub|kooora365|flylinks|earn-bitcoin|ludofantsypk|panytourism|wikiversity|exactpay)(\.online)(\/.*)/
-// @include /^(https?:\/\/)(.+)?(readi|linkmumet|shorte|battleroyal|kjcrypto|litecoinly|techeysub|forexit|o-pro)(\.online)(\/.*)/
+// @include /^(https?:\/\/)(.+)?(readi|linkmumet|shorte|battleroyal|kjcrypto|litecoinly|techeysub|forexit|o-pro|clickmais)(\.online)(\/.*)/
 // @include /^(https?:\/\/)(sitr|downfile|savelink|linkshortify|shareus|mobileprice|mynurse|short1|forextrader|shortener.goldcontent|lksfy|1xlink|savelink|busthings|icerik|adfly)(\.site)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(cekip|link4rev|coin-city|urlcash|alwrificlick|softindex|promo-visits|bluemediafile|flyearn|claimbits|shtfly)(\.site)(\/.*)/
 // @include /^(https?:\/\/)(bluemediafile|tourismtravels1|tourismtravels2|tourismtravels3|tourismtravels4|tourismtravels5|tourismtravels9|filepress)(\.sbs)(\/.*)/
