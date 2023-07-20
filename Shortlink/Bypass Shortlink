@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Shortlink
 // @namespace    bFsCn Script
-// @version      14.8
+// @version      14.9
 // @author       bFsCnBlogger
 // @run-at       document-start
 // @antifeature  tracking
@@ -1183,6 +1183,11 @@
           if (Captchacheck()) {clearInterval(wtp);
             click("button[id^='cry']");}}, 1 * 1000);
       } else {setTimeout(() => {click("button[id^='cry']");}, 19 * 1000);}});
+    BypassedBybFcSnblogger(/coinsvalue.net/, function() {EnableRCF();
+      if (elementExists('.g-recaptcha')) {let wtp = setInterval(() => {
+          if (Captchacheck()) {clearInterval(wtp);
+            click("button[id^='cry']");}}, 1 * 1000);
+      } else {setTimeout(() => {click("button[id^='cry']");}, 19 * 1000);}});
     BypassedBybFcSnblogger(/carsmania.net/, function() {EnableRCF();
       if (elementExists('.g-recaptcha')) {let wtp = setInterval(() => {
           if (Captchacheck()) {clearInterval(wtp);
@@ -1208,7 +1213,6 @@
           if (Captchacheck()) {clearInterval(isg);
             click("button[id^='crt']");}}, 1 * 1000);
       } else {setTimeout(() => {click("button[id^='crt']");}, 19 * 1000);}});
-    // if the sites above not working , Please Read my Script info , don't forget to Like and Follow my TikTok , Thanks
     BypassedBybFcSnblogger(/ouo.today/, function() {
       location.href = nextUrl;});
     BypassedBybFcSnblogger(/upload.ee/, function() {
