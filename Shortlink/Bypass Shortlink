@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Shortlink
 // @namespace    bFsCn Script
-// @version      14.11
+// @version      15.0
 // @author       bFsCnBlogger
 // @run-at       document-start
 // @antifeature  tracking
@@ -1167,147 +1167,12 @@
       const m = regex.exec(element.onclick.toString())[1];
       location.href = JSON.parse(atob(m)).safelink;});
     waitForElm('a.s-btn-f', smp => redirect(smp.href, false));
-    // if the sites below not working , Please Read my Script info , don't forget to Like and Follow my TikTok , Thanks
+    // Try for Private Use
     BypassedBybFcSnblogger(/mdn.lol/, function() {EnableRCF();
       if (elementExists('.g-recaptcha')) {let mdn = setInterval(() => {
           if (Captchacheck()) {clearInterval(mdn);
             click('div form button');}}, 1 * 1000);
       } else {setTimeout(() => {click('div form center button');}, 11 * 1000);}});
-    BypassedByBloggerPemula(/coinsvalue.net/, function() {
-      EnableRCF();
-      if (elementExists('.g-recaptcha')) {
-        let csv = setInterval(() => {
-          if (Captchacheck()) {
-            clearInterval(csv);
-            click("button[id^='cos']");
-          }
-        }, 1 * 1000);
-      } else {
-        setTimeout(() => {
-          click("button[id^='cos']");
-        }, 19 * 1000);
-      }
-    });
-    BypassedByBloggerPemula(/cookinguide.net/, function() {
-      EnableRCF();
-      if (elementExists('.g-recaptcha')) {
-        let ckg = setInterval(() => {
-          if (Captchacheck()) {
-            clearInterval(ckg);
-            click("button[id^='cog']");
-          }
-        }, 1 * 1000);
-      } else {
-        setTimeout(() => {
-          click("button[id^='cog']");
-        }, 19 * 1000);
-      }
-    });
-    BypassedByBloggerPemula(/freeoseocheck.com/, function() {
-      EnableRCF();
-      if (elementExists('.g-recaptcha')) {
-        let fsc = setInterval(() => {
-          if (Captchacheck()) {
-            clearInterval(fsc);
-            click("button[id^='frs']");
-          }
-        }, 1 * 1000);
-      } else {
-        setTimeout(() => {
-          click("button[id^='frs']");
-        }, 19 * 1000);
-      }
-    });
-    BypassedByBloggerPemula(/wiki-topia.com/, function() {
-      EnableRCF();
-      if (elementExists('.g-recaptcha')) {
-        let wtp = setInterval(() => {
-          if (Captchacheck()) {
-            clearInterval(wtp);
-            click("button[id^='cry']");
-          }
-        }, 1 * 1000);
-      } else {
-        setTimeout(() => {
-          click("button[id^='cry']");
-        }, 19 * 1000);
-      }
-    });
-    BypassedByBloggerPemula(/insurancegold.in/, function() {
-      EnableRCF();
-      if (elementExists('.g-recaptcha')) {
-        let isg = setInterval(() => {
-          if (Captchacheck()) {
-            clearInterval(isg);
-            click("button[id^='gld']");
-          }
-        }, 1 * 1000);
-      } else {
-        setTimeout(() => {
-          click("button[id^='gld']");
-        }, 19 * 1000);
-      }
-    });
-    BypassedByBloggerPemula(/cryptowidgets.net/, function() {
-      EnableRCF();
-      if (elementExists('.g-recaptcha')) {
-        let cwg = setInterval(() => {
-          if (Captchacheck()) {
-            clearInterval(cwg);
-            click("button[id^='cry']");
-          }
-        }, 1 * 1000);
-      } else {
-        setTimeout(() => {
-          click("button[id^='cry']");
-        }, 19 * 1000);
-      }
-    });
-    BypassedByBloggerPemula(/carsmania.net/, function() {
-      EnableRCF();
-      if (elementExists('.g-recaptcha')) {
-        let cwg = setInterval(() => {
-          if (Captchacheck()) {
-            clearInterval(cwg);
-            click("button[id^='crm']");
-          }
-        }, 1 * 1000);
-      } else {
-        setTimeout(() => {
-          click("button[id^='crm']");
-        }, 19 * 1000);
-      }
-    });
-    BypassedByBloggerPemula(/carstopia.net/, function() {
-      EnableRCF();
-      if (elementExists('.g-recaptcha')) {
-        let cwg = setInterval(() => {
-          if (Captchacheck()) {
-            clearInterval(cwg);
-            click("button[id^='crt']");
-          }
-        }, 1 * 1000);
-      } else {
-        setTimeout(() => {
-          click("button[id^='crt']");
-        }, 19 * 1000);
-      }
-    });
-    BypassedByBloggerPemula(/makeupguide.net/, function() {
-      EnableRCF();
-      if (elementExists('.g-recaptcha')) {
-        let cwg = setInterval(() => {
-          if (Captchacheck()) {
-            clearInterval(cwg);
-            click("button[id^='mkp']");
-          }
-        }, 1 * 1000);
-      } else {
-        setTimeout(() => {
-          click("button[id^='mkp']");
-        }, 19 * 1000);
-      }
-    });
     BypassedBybFcSnblogger(/ouo.today/, function() {
       location.href = nextUrl;});
     BypassedBybFcSnblogger(/upload.ee/, function() {
