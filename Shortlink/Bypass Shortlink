@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Shortlink
 // @namespace    bFsCn Script
-// @version      15.2
+// @version      15.2.0
 // @author       bFsCnBlogger
 // @run-at       document-start
 // @antifeature  tracking
@@ -1719,8 +1719,8 @@
       ClickIfExists('.directl', 1);});
     BypassedBybFcSnblogger(/btcbitco.in|readbitcoin.org|btcsatoshi.net|wiour.com|manofadan.com|crypto4yu.com/, function() {
       if (elementExists('.text-center.mh-container')) {
-        $('.mh-header-title').text('Please Answer 2 Maths Questions First , then Click Floating Verify Button Manually Before Clicking Red X');
-        $('.entry-title').text('Dont Forget to use Adblocker and Popup Blocker');}
+        $('.mh-header-title').text('Answer 2 Maths Captcha First , then Click Floating Verify Button Manually Before Clicking Red X');
+        $('.entry-title').text('Dont Forget to Pray before starting');}
       ClickIfExists('h3.entry-title.mh-loop-title a', 1);
       ClickIfExists('article.mh-loop-item > figure > a', 1);
       ClickIfExists('.btn-outline-primary.btn-sm.btn', 5, 'setInterval');});
@@ -1961,7 +1961,7 @@
     BypassedBybFcSnblogger(/faucet.work|wildblog.me|blogginglass.com|arahtekno.com|mopahealth.com|welovecrypto.xyz|jiotech.net|crypto4tun.com|adshorturl.com|digitalnaz.net|apkupload.in/, function() {
       var el = document.querySelector("input[name=newwpsafelink]");
       redirect(JSON.parse(atob(el.value)).linkr);});
-    BypassedBybFcSnblogger(/anhdep24.com|nguyenvanbao.com|xemsport.com|byboe.com/, function() {
+    BypassedBybFcSnblogger(/anhdep24.com|nguyenvanbao.com|hocbeauty.com|xemsport.com|byboe.com/, function() {
       if (elementExists('.g-recaptcha')) {
         let anh = setInterval(() => {
           if (Captchacheck()) {clearInterval(anh);
