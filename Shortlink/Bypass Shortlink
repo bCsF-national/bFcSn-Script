@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Shortlink
 // @namespace    bFsCn Script
-// @version      15.3
+// @version      15.4
 // @author       bFsCnBlogger
 // @run-at       document-start
 // @antifeature  tracking
@@ -15,7 +15,7 @@
 // @include /^(https?:\/\/)(.+)?(digitalnaz|owllink|mozlink|cryptosats|rocklinks|celinks|jiotech|bitcomarket|illink|jemari|paid4link|link3s|boscoin|linkrex|fire-link|urlw|pilinks|linkshortify|youshort|bicolink|cookinguide|indiurl.in|vip-link|themezon|tnshort|makeupguide|carstopia|btcsatoshi|hostadviser|carsmania|file-upload|up-4ever)(\.net)(\/.*)/
 // @include /^(https?:\/\/)(tnlink|jrlinks|qualitystudymaterial|missionhight|wpking|zagl|streamshort|cutp|earnmoj|cplink|cryptomonitor|linkshortify|htlinks|linkocean|djxmaza|bildirim|battlechamp|sahilsumra|kerdlinfo|urlcut|insurancevlog|itechlogic|videolyrics|tekcrypt|missionhight|gplinks|moddingzone|adybrands|gz2|dulink|aclinks|hidelinks|shortearn|u.apgy|modzilla|thebestwishes|mrdoge|s2fly|filerio|thebloggerspoint|jslink|moviesnew|technocubes|afly|healthynepal|djnonstopmusic|omegalinks|jobform|du-link|ouoi|by6|adrinolinks|rklinks|mymobilehub|techdaze|link4earn|rupamobile|examsolution|earn4link|kalvidudes|techwithsanikant|ibyt|flyurl|cosmictap|naukrilelo|nanolinks|cutp|linkpays|trends99|link.skm4u.co|linkwards.co|computerpedia|apkupload|banaraswap|jobphoria|techincubator|bookszone|file-upload|apna-blog|earn4clicks|adbitfly|greylinks|djqunjab)(\.in)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(cashurl|bitcoinly|crazyblog|zolomix|technologylover|expertlinks|largestpanel|rsrlink|short2url|99links|enit|url2go|tnvalue|pvidly|apurl|urlinked|mdlink|gamerfang|writedroid|teckypress|fixno|paisakamalo|inkik|shrinkforearn|easysky|mdiskplayer|akcartoons|open2get|adzz|qora|insurancegold|smallinfo|filmypoints|linkshild|viplink|cuturl|e2share|shorturllink|opiniontoday|theforyou|sigmalinks|financerites|cordtpoint.co|mdisk.net|techyinfo|btcbitco|apnashortener|megafly|megaurl|tplinks|tnlinks|meclipstudy|v2links|finclub|greymatterslinks|shareus)(\.in)(\/.*)?/
-// @include /^(https?:\/\/)(.+)?(scratch247|azmath|mobilereview|inform3tion|shortlinkto|wez|bitcrypto|cooklike|videoclip|brbushare|fanclup|nulledlist|coinscap|1short|69vn|web1s|missreview|every-crypto|ajlinks|bit4me)(\.info)(\/.*)/
+// @include /^(https?:\/\/)(.+)?(scratch247|azmath|mobilereview|inform3tion|shortlinkto|wez|bitcrypto|cooklike|videoclip|brbushare|fanclup|nulledlist|coinscap|1short|69vn|web1s|missreview|every-crypto|ajlinks|bit4me|sportweb)(\.info)(\/.*)/
 // @include /^(https?:\/\/)(exee.my|onlineteori.my|karyawan.co|rotator.nurul-huda.sch|activity.my|massive.my|caview.my|nesiaku.my|lewati|arahlink|linkk|free4u.nurul-huda.or|link.nesia.my|omdata.my|mydata.my|healthydad.my|lajangspot.web|mbantul.my)(\.id)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(suratresmi|carapedi|salink|mycut.my|apasih.my|indofaucet.my|wapka|tonanmedia.my)(\.id)(\/.*)/
 // @include /^(https?:\/\/)(aylink|mynewsmedia|gtlink|droplink|123link|linksfy|adshorti|hxfile|dosya|takem|dausel|modlink|slwatch|5tl|desiupload|tech5s|9-animie|veganho|nulledmod|veganac|dealprice|arabplus2|cut-y|adshort|sub2me|gplinks|web1s|ku11net|mixdrop)(\.co)(\/.*)/
@@ -436,7 +436,7 @@
   bFcSnblogger('kienthucrangmieng.com|thuocdangian.net|chinhnhacoban.com|coin-free.com|fanclup.info|tremamnon.com', 'wpsafelink', '');
   BypassedBybFcSnblogger(/go.birdurls.com|go.owllink.net|go.illink.net|go.pong.pw|go.earnfacut.xyz|go.link4rev.site|go.urlcash.site/, function() {
     location = location.href.replace('go.', '');});
-  BypassedBybFcSnblogger(/teachsansar.com|technicalatg.com|modzilla.in|jetmedia.click|foodxor.com|cdrab.com|admediaflex.com|datacheap.io/, () => waitForElm("#wpsafegenerate > #wpsafe-link > a[href]", safe => redirect(safe.href)));
+  BypassedBybFcSnblogger(/teachsansar.com|technicalatg.com|modzilla.in|jetmedia.click|foodxor.com|cdrab.com|sportweb.info|bitcrypto.info|admediaflex.com|datacheap.io/, () => waitForElm("#wpsafegenerate > #wpsafe-link > a[href]", safe => redirect(safe.href)));
   BypassedBybFcSnblogger(/ouo.io/, function() {
     if (BpParams.has('s') && location.href.includes('link.nevcoins.club')) {
       location = 'https://' + BpParams.getAll('s');
