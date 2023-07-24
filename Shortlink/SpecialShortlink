@@ -18,7 +18,7 @@
 // @match      *://link.turkdown.com/*
 // @match      *://safe.intipanime.com/*
 // @grant      none
-// @version    0.3
+// @version    0.4
 // @author     bFsCnBlogger
 // @run-at     document-start
 // @description Bypass Special Link not include in Bypass Shortlink
