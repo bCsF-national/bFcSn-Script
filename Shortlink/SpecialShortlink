@@ -1,14 +1,22 @@
 // ==UserScript==
 // @name       Bypass Special Shortlink
 // @namespace  bFsCn Scripts
-// @match      *://linksly.co/*
 // @match      *://cutdl.xyz/*
 // @match      *://stfly.me/*
 // @match      *://shrinke.me/*
-// @match      *://doctor-groups.com/*
 // @match      *://gplinks.co/*
+// @match      *://linksly.co/*
+// @match      *://smgplaza.com/*
 // @match      *://shortzon.com/*
 // @match      *://icutlink.com/*
+// @match      *://*.hamody.pro/*
+// @match      *://*.mealob.com/*
+// @match      *://megablogme.com/*
+// @match      *://tribuntekno.com/*
+// @match      *://namemegablog.com/*
+// @match      *://doctor-groups.com/*
+// @match      *://link.turkdown.com/*
+// @match      *://safe.intipanime.com/*
 // @grant      none
 // @version    0.2
 // @author     bFsCnBlogger
