@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Special Fly.inc Pass
-// @namespace   Violentmonkey Scripts
+// @namespace   bFcsn scripts
 // @match       *://thumb8.net/*
 // @match       *://thumb9.net/*
 // @match       *://crewbase.net/*
@@ -15,8 +15,9 @@
 // @match       *://phineypet.com/*
 // @match       *://talkforfitness.com/*
 // @grant       none
-// @version     14.1
+// @version     14.2
 // @author      bFsCnBlogger
+// @description Bypass fly.inc no need recaptcha
 // @run-at      document-body
 // ==/UserScript==
 
