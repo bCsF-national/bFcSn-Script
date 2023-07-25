@@ -11,11 +11,11 @@
 // @match       *://uniqueten.net/*
 // @match       *://topcryptoz.net/*
 // @match       *://allcryptoz.net/*
-// @match       *://batmanfactor.com/*
+// @match       *://techedifier.com/*
 // @match       *://phineypet.com/*
 // @match       *://talkforfitness.com/*
 // @grant       none
-// @version     14.2
+// @version     14.3
 // @author      bFsCnBlogger
 // @description Bypass fly.inc no need recaptcha
 // @run-at      document-body
