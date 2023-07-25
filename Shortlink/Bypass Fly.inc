@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Fly.inc
 // @namespace    Violentmonkey Scripts
-// @version      14.0
+// @version      14.1
 // @author       bFsCnBlogger
 // @run-at       document-body
 // @grant        none
@@ -16,7 +16,7 @@
 // @match       *://uniqueten.net/*
 // @match       *://topcryptoz.net/*
 // @match       *://allcryptoz.net/*
-// @match        *://batmanfactor.com/*
+// @match        *://techedifier.com/*
 // @match        *://phineypet.com/*
 // @match        *://talkforfitness.com/*
 // ==/UserScript==
