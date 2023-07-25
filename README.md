@@ -1,9 +1,7 @@
 # Script
 Script for Faucet &amp; Shortlink
 
-This Script to make it easier for us to play faucets and also work on shortlinks 
-
-so many website faucet from there are lots of faucet websites nowadays, and lots of motives or variants. 
+This Script to make it easier for us to play faucets and also work on shortlinks so many website faucet from there are lots of faucet websites nowadays, and lots of motives or variants. 
 
 Starting from the high rewards from working on shortlinks and faucets and there are also high rewards from the offerwall.
 
