@@ -19,6 +19,11 @@ Starting from the high rewards from working on shortlinks and faucets and there 
 
   Faucet, Shortlink, Surf ads, Offerwall, Read Article, Mining & Contest (exp top 1 $16, Shortlink Top 1 $15, Offerwall top 1 $13, surf ads top 1 $4, Manual Claim Top 1 $3)
 
+- [Free-ltc-info](https://free-ltc-info.ru/?r=7669)
+
+  Faucet, Shortlink, Surf ads, Offerwall, Read Article, Mining & Contest (shortlink top 1 $3.Offerwal top 1 $1.5) 
+
+
 ## Weekly Contest
 - [Hatecoin](https://hatecoin.me/?r=30589)
 
@@ -47,10 +52,6 @@ Starting from the high rewards from working on shortlinks and faucets and there 
 - [Coredao](https://coredao.tech/?r=2173)
 
   Faucet, Shortlink, Surf ads, Offerwall, Read Article, Mining & Contest (shortlink top 1 $3)
-
-- [free-ltc-info](https://free-ltc-info.ru/?r=7669)
-
-  Faucet, Shortlink, Surf ads, Offerwall, Read Article, Mining & Contest (shortlink top 1 $3.Offerwal top 1 $1.5) 
 
 ## Daily Earning
 - [LTCHunt](https://ltchunt.com/?ref=1415)
