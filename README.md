@@ -46,7 +46,11 @@ Starting from the high rewards from working on shortlinks and faucets and there 
 
 - [Coredao](https://coredao.tech/?r=2173)
 
-  Faucet, Shortlink, Surf ads, Offerwall, Read Article, Mining & Contest (shortlink top 1 $3) 
+  Faucet, Shortlink, Surf ads, Offerwall, Read Article, Mining & Contest (shortlink top 1 $3)
+
+- [free-ltc-info](https://free-ltc-info.ru/?r=7669)
+
+  Faucet, Shortlink, Surf ads, Offerwall, Read Article, Mining & Contest (shortlink top 1 $3.Offerwal top 1 $1.5) 
 
 ## Daily Earning
 - [LTCHunt](https://ltchunt.com/?ref=1415)
