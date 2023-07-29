@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Shortlink
 // @namespace    bFsCn Script
-// @version      15.6
+// @version      15.8
 // @author       bFsCnBlogger
 // @run-at       document-start
 // @antifeature  tracking
@@ -13,7 +13,7 @@
 // @include /^(https?:\/\/)(.+)?(senuansatechno|claimercorner|shortly|doctorcoin|speedynews|1apple|ffworld|textpage|fidovy|pcomnews|adshorti|sapica|earnfacut|urlbharat|dropz|chainfo|techleets|earnl|shortpay|modmakers|kyshort|trxking|aoutoqw|healthysamy|coin2pay|tsinfo|financeandinsurance|mangafun|opli|beycoin|myartical)(\.xyz)(\/.*)/
 // @include /^(https?:\/\/)(techydino|world-trips|yoshare|lets.5get|crypto-fi|wpcheap|coinmasterx|catcut|aztravels|dulichkhanhhoa|sub2unlock|dataupload|forex-gold|7apple|ccurl|link1s|url.namaidani|adskip|hurirk|usfinf|xervoo|hexupload|eloism|cutt|forexshare|blog.cryptowidgets|neexulro|dailyuploads|douploads|simfileshare|fir3|magybu|racaty|linegee|blogesque|thuocdangian|altblogger|letsboost|conghuongtu|vinaurl|tecmundo|try2link|blog.coinsvalue|khaddavi|8tm|traffic24h|shortearn|cut-y|megadb|cpmlink|blog.webfreetools|rslinks|dupload|userupload|oaxyteek|xonnews|yosite|cryptopaid|bluetechno|w88vnz|tmearn|click1s|turbobit|megaup|hitfile|v2guides|cutearn|hislink|financeyogi|sahlmarketing|rapidgator|blogbux|otechno)(\.net)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(digitalnaz|owllink|mozlink|cryptosats|rocklinks|celinks|jiotech|bitcomarket|illink|jemari|paid4link|link3s|boscoin|linkrex|fire-link|urlw|pilinks|linkshortify|youshort|bicolink|cookinguide|indiurl.in|vip-link|themezon|tnshort|makeupguide|carstopia|btcsatoshi|hostadviser|carsmania|file-upload|up-4ever)(\.net)(\/.*)/
-// @include /^(https?:\/\/)(tnlink|jrlinks|qualitystudymaterial|missionhight|wpking|zagl|streamshort|cutp|earnmoj|cplink|cryptomonitor|linkshortify|htlinks|linkocean|djxmaza|bildirim|battlechamp|sahilsumra|kerdlinfo|urlcut|insurancevlog|itechlogic|videolyrics|tekcrypt|missionhight|gplinks|moddingzone|adybrands|gz2|dulink|aclinks|hidelinks|shortearn|u.apgy|modzilla|thebestwishes|mrdoge|s2fly|filerio|thebloggerspoint|jslink|moviesnew|technocubes|afly|healthynepal|djnonstopmusic|omegalinks|jobform|du-link|ouoi|by6|adrinolinks|rklinks|mymobilehub|techdaze|link4earn|rupamobile|examsolution|earn4link|kalvidudes|techwithsanikant|ibyt|flyurl|cosmictap|naukrilelo|nanolinks|cutp|linkpays|trends99|link.skm4u.co|linkwards.co|computerpedia|apkupload|banaraswap|jobphoria|techincubator|bookszone|file-upload|apna-blog|earn4clicks|adbitfly|greylinks|djqunjab|xrodyasir|go.earnylink|healthynepal)(\.in)(\/.*)/
+// @include /^(https?:\/\/)(tnlink|jrlinks|qualitystudymaterial|missionhight|wpking|zagl|streamshort|cutp|earnmoj|cplink|cryptomonitor|linkshortify|htlinks|linkocean|djxmaza|bildirim|battlechamp|sahilsumra|kerdlinfo|urlcut|insurancevlog|itechlogic|videolyrics|tekcrypt|missionhight|gplinks|moddingzone|adybrands|gz2|dulink|aclinks|hidelinks|shortearn|u.apgy|modzilla|thebestwishes|mrdoge|s2fly|filerio|thebloggerspoint|jslink|moviesnew|technocubes|afly|healthynepal|djnonstopmusic|omegalinks|jobform|kingbit.co|du-link|ouoi|by6|adrinolinks|rklinks|mymobilehub|techdaze|link4earn|rupamobile|examsolution|earn4link|kalvidudes|techwithsanikant|ibyt|flyurl|cosmictap|naukrilelo|nanolinks|cutp|linkpays|trends99|link.skm4u.co|linkwards.co|computerpedia|apkupload|banaraswap|jobphoria|techincubator|bookszone|file-upload|freebitco|apna-blog|earn4clicks|adbitfly|greylinks|djqunjab|xrodyasir|go.earnylink|healthynepal)(\.in)(\/.*)/
 // @include /^(https?:\/\/)(.+)?(cashurl|bitcoinly|crazyblog|zolomix|technologylover|expertlinks|largestpanel|rsrlink|short2url|99links|enit|url2go|tnvalue|pvidly|apurl|urlinked|mdlink|gamerfang|writedroid|teckypress|fixno|paisakamalo|inkik|shrinkforearn|easysky|mdiskplayer|akcartoons|open2get|adzz|qora|insurancegold|smallinfo|filmypoints|linkshild|viplink|cuturl|e2share|shorturllink|opiniontoday|theforyou|sigmalinks|financerites|cordtpoint.co|mdisk.net|techyinfo|btcbitco|apnashortener|megafly|megaurl|tplinks|tnlinks|meclipstudy|v2links|finclub|greymatterslinks|shareus)(\.in)(\/.*)?/
 // @include /^(https?:\/\/)(.+)?(scratch247|azmath|mobilereview|inform3tion|shortlinkto|wez|bitcrypto|cooklike|videoclip|brbushare|fanclup|nulledlist|coinscap|1short|69vn|web1s|missreview|every-crypto|ajlinks|bit4me|sportweb)(\.info)(\/.*)/
 // @include /^(https?:\/\/)(exee.my|onlineteori.my|karyawan.co|rotator.nurul-huda.sch|activity.my|massive.my|caview.my|nesiaku.my|lewati|arahlink|linkk|free4u.nurul-huda.or|link.nesia.my|omdata.my|mydata.my|healthydad.my|lajangspot.web|mbantul.my)(\.id)(\/.*)/
@@ -379,7 +379,7 @@
   bFcSnblogger('1apple.xyz', 'link', 'https://link.turkdown.com/');
   bFcSnblogger('mixrootmods.com', 'link', 'https://atglinks.com/');
   bFcSnblogger('missreview.info', 'link', 'https://g.linkvor.pw/');
-  bFcSnblogger('en.themezon.net', 'link', 'https://go.linksly.co/');
+  bFcSnblogger('yudiblog.me', 'adlinkfly', 'https://go.xcut.link/');
   bFcSnblogger('siteblog.in', 'link', 'https://go.droplink.co.in/');
   bFcSnblogger('medipost.org', 'link', 'https://blog.medipost.org/');
   bFcSnblogger('adbitfly.in', 'adlinkfly', 'https://adbitfly.click/');
@@ -404,6 +404,7 @@
   bFcSnblogger('missionhight.in', 'link', 'https://playdisk.url2go.in/');
   bFcSnblogger('tech.techwhom.com', 'jeton', 'https://we.techwhom.com/');
   bFcSnblogger('encurtaclik.com', 'link', 'https://go.encurtaclik.com/');
+  bFcSnblogger('appkamods.com', 'link', 'https://go.shorturllinks.com/');
   bFcSnblogger('techyinfo.in', 'open', 'https://insurance.techyinfo.in/');
   bFcSnblogger('loan.filmypoints.in', 'link', 'https://link.e2share.in/');
   bFcSnblogger('niinga.com', 'get', 'https://eigsense.eda-ah.com/?get1=');
@@ -436,7 +437,7 @@
   bFcSnblogger('kienthucrangmieng.com|thuocdangian.net|chinhnhacoban.com|coin-free.com|fanclup.info|tremamnon.com', 'wpsafelink', '');
   BypassedBybFcSnblogger(/go.birdurls.com|go.owllink.net|go.illink.net|go.pong.pw|go.earnfacut.xyz|go.link4rev.site|go.urlcash.site/, function() {
     location = location.href.replace('go.', '');});
-  BypassedBybFcSnblogger(/teachsansar.com|technicalatg.com|modzilla.in|jetmedia.click|foodxor.com|cdrab.com|sportweb.info|bitcrypto.info|admediaflex.com|datacheap.io/, () => waitForElm("#wpsafegenerate > #wpsafe-link > a[href]", safe => redirect(safe.href)));
+  BypassedBybFcSnblogger(/teachsansar.com|technicalatg.com|modzilla.in|jetmedia.click|foodxor.com|cdrab.com|admediaflex.com|datacheap.io|sportweb.info/, () => waitForElm("#wpsafegenerate > #wpsafe-link > a[href]", safe => redirect(safe.href)));
   BypassedBybFcSnblogger(/ouo.io/, function() {
     if (BpParams.has('s') && location.href.includes('link.nevcoins.club')) {
       location = 'https://' + BpParams.getAll('s');
@@ -1398,6 +1399,9 @@
       ClickIfExists('.xbtt.btn-primary.btn-lg.btn', 3, 'setInterval');});
     BypassedBybFcSnblogger(/howifx.com|vocalley.com|financerites.com|yogablogfit.com/, function() {
       ClickIfExists('#getlink', 3);});
+    BypassedBybFcSnblogger(/mrproblogger.com|themezon.net/, function() {
+      waitForElm('#btn2.tp-btn', mrBp => mrBp.click());
+      waitForElm('div.center-link-items a', thz => redirect(thz.href, false));});
     BypassedBybFcSnblogger(/forex-golds.com|forex-trnd.com/, function() {
       parent.open = BpBlock();
       ClickIfExists('.g-recaptcha', 2);});
@@ -1407,6 +1411,9 @@
     BypassedBybFcSnblogger(/1link.club/, function() {
       $("a[target='_blank']").removeAttr("target");
       ClickIfExists('#download', 1);});
+    BypassedBybFcSnblogger(/1mlink.vip/, function() {
+      ClickIfExists('#invisibleCaptchaShortlink', 2);
+      ClickIfExists('.get-link.btn-lg.btn-success.btn', 4);});
     BypassedBybFcSnblogger(/zegtrends.com/, function() {
       SubmitIfExists('#cln', 5);
       ClickIfExists('#bt1', 5);
@@ -1720,7 +1727,7 @@
     BypassedBybFcSnblogger(/btcbitco.in|readbitcoin.org|btcsatoshi.net|wiour.com|manofadan.com|crypto4yu.com/, function() {
       if (elementExists('.text-center.mh-container')) {
         $('.mh-header-title').text('Answer 2 Maths Captcha First , then Click Floating Verify Button Manually Before Clicking Red X');
-        $('.entry-title').text('Dont Forget to Pray before starting');}
+        $('.entry-title').text('Dont Try Share This Script to Public');}
       ClickIfExists('h3.entry-title.mh-loop-title a', 1);
       ClickIfExists('article.mh-loop-item > figure > a', 1);
       ClickIfExists('.btn-outline-primary.btn-sm.btn', 5, 'setInterval');});
@@ -1837,8 +1844,8 @@
         if (Captchacheck()) {clearInterval(fu);
           click('#downloadbtn');}}, 500);});
     BypassedBybFcSnblogger(/on-scroll.com|diudemy.com|maqal360.com/, function() {
-      ClickIfExists('div#_append > :nth-child(1)', 3);
-      ClickIfExists('div#append > :nth-child(1)', 4);
+      ClickIfExists('div#_append > :nth-child(1)', 4);
+      ClickIfExists('div#append > :nth-child(1)', 5);
       waitForElm("form.text-center a", roll => redirect(roll.href, false));});
     BypassedBybFcSnblogger(/bstlar.com/, () => {
       let xhr = new XMLHttpRequest();
@@ -2113,7 +2120,6 @@
     BypassedBybFcSnblogger(/linksly.co/, () => waitForElm('div.col-md-12 a', lsl => redirect(lsl.href, false)));
     BypassedBybFcSnblogger(/cashando.me/, () => waitForElm('#goCoinsTown', cash => redirect(cash.href, false)));
     BypassedBybFcSnblogger(/apkadmin.com/, () => waitForElm('div.text.text-center a', apk => redirect(apk.href)));
-    BypassedBybFcSnblogger(/mrproblogger.com|themezon.net/, () => waitForElm('#btn2.tp-btn', mrBp => mrBp.click()));
     BypassedBybFcSnblogger(/filemoon.sx/, () => waitForElm('div.download2 a.button', fm => redirect(fm.href, false)));
     BypassedBybFcSnblogger(/forexrw7.com/, () => waitForElm('center#molien1.oto a', pro => redirect(pro.href, false)));
     BypassedBybFcSnblogger(/cekip.site/, () => waitForElm('a#aGo.badge.bg-success', cek => redirect(cek.href, false)));
