@@ -2,7 +2,7 @@
 // @name         hCaptcha reCaptcha Auto Open
 // @namespace    bFsCn Scripts
 // @author       bFsCnBlogger
-// @version      14.0
+// @version      14.1
 // @description  Auto clicks open recaptcha and hcaptcha
 // @match        https://*/recaptcha/*
 // @match        https://*.hcaptcha.com/*hcaptcha-challenge*
@@ -102,12 +102,4 @@ function isHidden(el) {
                 console.log("An error occurred while solving. Stopping the solver.");
             }
 
-        }, RC_PAUSE );
-        
-    }
-    else {
-
-
-
-
-})();
+   
