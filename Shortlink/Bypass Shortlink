@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Shortlink
 // @namespace    bFsCn Script
-// @version      15.9.1
+// @version      15.9.2
 // @author       bFsCnBlogger
 // @run-at       document-start
 // @antifeature  tracking
@@ -1101,7 +1101,7 @@
           if (/^\/step1\/([^\/]+)/.test(h.pathname)) {
             return 'https://easysl.click/' + RegExp.$1;}
           break;
-        case 'www.gifans.com':
+      case 'www.gifans.com':
           if (/^\/link\/([^\/]+)/.test(h.pathname)) {
             return 'https://shortlink.prz.pw/' + RegExp.$1;}
           break;
@@ -1114,30 +1114,9 @@
             return 'https://golink.nulledsafe.com/' + RegExp.$1;}
           break;
         case 'comohoy.com':
-          if (h.pathname === '/grab/out.html' && h.searchParams.has('url')) {
-            redirect(atob(h.searchParams.get('url')));}
+          if (h.palse);}
           break;
-        case 'froggyreviews.com':
-          if (h.searchParams.has('mflink')) {
-            meta('https://froggyreviews.com/go/' + h.searchParams.get('mflink'));}
-          break;
-        case 'techmody.io':
-          if (h.pathname === '/' && h.searchParams.has('check')) {
-            meta(decodeURIComponent(h.searchParams.get('check')));}
-          break;
-        case 'shortener.goldcontent.site':
-          if (h.pathname === '/' && h.searchParams.has('dest')) {
-            redirect(atob(h.searchParams.get('dest')));}
-          break;
-        case 'acortame.xyz':
-          if (window.location.hash) {
-            location.href = "https://second-bfcsn.blogspot.com/?url=" + (atob(window.location.hash.substr(1)));}
-          break;
-        case 'www.cskua.com':
-          if (h.pathname === '/p/blog-page_12.html' && h.searchParams.has('link')) {
-            redirect(atob(h.searchParams.get('link')), false);}
-          break;
-        case 'www.mtagang.biz':
+    case 'www.mtagang.biz':
           if (h.pathname === '/p/blog-page_24.html' && h.searchParams.has('link')) {
             redirect(atob(h.searchParams.get('link')), false);}
           break;
@@ -1169,54 +1148,14 @@
     waitForElm('div#wpsafe-link > a', function(element) {
       const regex = /redirect=(.*)',/;
       const m = regex.exec(element.onclick.toString())[1];
-      location.href = JSON.parse(atob(m)).safelink;});
+      location.href = JSO.parse(atob(m)).safelink;});
     waitForElm('a.s-btn-f', smp => redirect(smp.href, false));
     // if not working , Please Report , to Correct , Thanks
     BypassedBybFcSnblogger(/mdn.lol/, function() {EnableRCF();
-      if (elementExists('.g-recaptcha')) {let mdn = setInterval(() => {
-          if (Captchacheck()) {clearInterval(mdn);
-            click('div form button');}}, 1 * 1000);
-      } else {setTimeout(() => {click('div form center button');}, 11 * 1000);}});
-    BypassedBybFcSnblogger(/freeoseocheck.com/, function() {EnableRCF();
-      if (elementExists('.g-recaptcha')) {let fsc = setInterval(() => {
-          if (Captchacheck()) {clearInterval(fsc);
-            click("button[id^='okius']");}}, 1 * 1000);
-      } else {setTimeout(() => {click("button[id^='okius']");}, 19 * 1000);}});
-    BypassedBybFcSnblogger(/wiki-topia.com/, function() {EnableRCF();
-      if (elementExists('.g-recaptcha')) {let wtp = setInterval(() => {
-          if (Captchacheck()) {clearInterval(wtp);
-            click("button[id^='lsduc']");}}, 1 * 1000);
+      if (elementExists('.g-00);
       } else {setTimeout(() => {click("button[id^='lsduc']");}, 19 * 1000);}});
-    BypassedBybFcSnblogger(/carsmania.net/, function() {EnableRCF();
-      if (elementExists('.g-recaptcha')) {let wtp = setInterval(() => {
-          if (Captchacheck()) {clearInterval(wtp);
-            click("button[id^='ijdia']");}}, 1 * 1000);
-      } else {setTimeout(() => {click("button[id^='ijdia']");}, 19 * 1000);}});
-    BypassedBybFcSnblogger(/cryptowidgets.net/, function() {EnableRCF();
-      if (elementExists('.g-recaptcha')) {let cwg = setInterval(() => {
-          if (Captchacheck()) {clearInterval(cwg);
-            click("button[id^='krpto']");}}, 1 * 1000);
-      } else {setTimeout(() => {click("button[id^='krpto']");}, 19 * 1000);}});
-    BypassedBybFcSnblogger(/makeupguide.net/, function() {EnableRCF();
-      if (elementExists('.g-recaptcha')) {let cwg = setInterval(() => {
-          if (Captchacheck()) {clearInterval(cwg);
-            click("button[id^='ksdjud']");}}, 1 * 1000);
-      } else {setTimeout(() => {click("button[id^='ksdjud']");}, 19 * 1000);}});
-    BypassedBybFcSnblogger(/insurancegold.in/, function() {EnableRCF();
-      if (elementExists('.g-recaptcha')) {let isg = setInterval(() => {
-          if (Captchacheck()) {clearInterval(isg);
-            click("button[id^='rksu']");}}, 1 * 1000);
-      } else {setTimeout(() => {click("button[id^='rksu']");}, 19 * 1000);}});
-    BypassedBybFcSnblogger(/carstopia.net/, function() {EnableRCF();
-      if (elementExists('.g-recaptcha')) {let isg = setInterval(() => {
-          if (Captchacheck()) {clearInterval(isg);
-            click("button[id^='odaij']");}}, 1 * 1000);
-      } else {setTimeout(() => {click("button[id^='odaij']");}, 19 * 1000);}});
-    BypassedBybFcSnblogger(/coinsvalue.net/, function() {EnableRCF();
-      if (elementExists('.g-recaptcha')) {let isg = setInterval(() => {
-          if (Captchacheck()) {clearInterval(isg);
-            click("button[id^='jhsuy']");}}, 1 * 1000);
-      } else {setTimeout(() => {click("button[id^='jhsuy']");}, 19 * 1000);}});
+    BypassedBybFcSnblogger(/);}}, 1 * 1000);
+      } else {setTimeout(() => {clck("button[id^='jhsuy']");}, 19 * 1000);}});
     BypassedBybFcSnblogger(/cookinguide.net/, function() {EnableRCF();
       if (elementExists('.g-recaptcha')) {let isg = setInterval(() => {
           if (Captchacheck()) {clearInterval(isg);
@@ -1226,14 +1165,12 @@
     BypassedBybFcSnblogger(/ouo.today/, function() {
       location.href = nextUrl;});
     BypassedBybFcSnblogger(/upload.ee/, function() {
-      ClickIfExists('#d_l', 2);});
-    BypassedBybFcSnblogger(/appdrive.me/, function() {
+      ClickIfExists('#d_l', 2);});    BypassedBybFcSnblogger(/appdrive.me/, function() {
       ClickIfExists('#drc', 2);});
-    BypassedBybFcSnblogger(/prx.ee/, function() {
-      ClickIfExists('#final_link', 1);});
+    BypassedBybFcSnblor(/prx.ee/, function() {
+      ClickIfExists('#final_link', 1););
     BypassedBybFcSnblogger(/1ink.cc/, function() {
-      ClickIfExists('#countingbtn', 1);});
-    BypassedBybFcSnblogger(/filedm.com/, function() {
+      ClickIfExists('#cotingbtn', 1);});    BypassedBybFcSnblogger(/filedm.com/, function() {
       ClickIfExists('#dlbutton', 3);});
     BypassedBybFcSnblogger(/keeplinks.org/, function() {
       ClickIfExists('#btnchange', 2);});
@@ -1290,23 +1227,7 @@
     BypassedBybFcSnblogger(/pro.sh/, function() {
       ClickIfExists('.btn-secondary', 3, 'setInterval');});
     BypassedBybFcSnblogger(/rapidgator.net/, function() {
-      ClickIfExists('.btn-free.act-link.link', 2);});
-    BypassedBybFcSnblogger(/file-upload.net/, function() {
-      ClickIfExists('#downbild.g-recaptcha', 2);});
-    BypassedBybFcSnblogger(/userscloud.com|dosya.co/, function() {
-      ClickIfExists('#btn_download', 2);});
-    BypassedBybFcSnblogger(/hexupload.net/, function() {
-      ClickIfExists('.btn-success.btn-lg.btn', 1);});
-    BypassedBybFcSnblogger(/dbree.me/, function() {
-      ClickIfExists('.center-block.btn-default.btn', 2);});
-    BypassedBybFcSnblogger(/proappapk.com|meclipstudy.in/, function() {
-      ClickIfExists('#gotolink', 5);});
-    BypassedBybFcSnblogger(/megaup.net/, function() {
-      waitForElm('#btnsubmit', muBtn => muBtn.click());});
-    BypassedBybFcSnblogger(/solidfiles.com/, function() {
-      ClickIfExists('.btn-sm.btn-primary.btn', 2);});
-    BypassedBybFcSnblogger(/gobits.me|zcash.one|clickscoin.com/, function() {
-      ClickIfExists('#mdt', 3);});
+ ClickIfExists('#mdt', 3);});
     BypassedBybFcSnblogger(/wrbloggers.com/, function() {
       ClickIfExists('a#nextpagelink button.btn', 5);});
     BypassedBybFcSnblogger(/lets.5get.net/, function() {
@@ -1318,22 +1239,21 @@
     BypassedBybFcSnblogger(/megaupto.com/, function() {
       ClickIfExists('#direct_link > a:nth-child(1)', 2);});
     BypassedBybFcSnblogger(/linkpay.cc/, function() {
-      parent.open = BpBlock();
+parent.open = BpBlock();
       SubmitIfExists('#link-view', 1);});
     BypassedBybFcSnblogger(/bitcotasks.com/, function() {
       ClickIfExists("button[id^='buttons']", 3, 'setInterval');});
-    BypassedBybFcSnblogger(/tinyurl.so/, function() {
+ passedBybFcSnblogger(/tinyurl.so/, function() {
       ClickIfExists('.btn.btn-secondary', 3, 'setInterval');});
     BypassedBybFcSnblogger(/exeo.app/, function() {
       ClickIfExists('.btn-captcha.btn-goo.btn-primary.btn', 3);});
     BypassedBybFcSnblogger(/upmienphi.com/, function() {
       waitForElm('.download-link', upBtn => upBtn.click());});
-    BypassedBybFcSnblogger(/files.im/, function() {
+  ypassedBybFcSnblogger(/files.im/, function() {
       ClickIfExists('.btn-dow.btn', 2);
       SubmitIfExists('#F1', 1);});
     BypassedBybFcSnblogger(/paste1s.com|note1s.com/, function() {
-      ClickIfExists('.btn-lg.btn-primary.btn', 2);});
-    BypassedBybFcSnblogger(/appsinsta.com/, function() {
+  BypassedBybFcSnblogger(/appsinsta.com/, function() {
       waitForElm('.yu-blue.yu-btn', apBtn => apBtn.click());});
     BypassedBybFcSnblogger(/douploads.net/, function() {
       ClickIfExists('.btn-primary.btn-lg.btn-block.btn', 2);});
@@ -1604,21 +1524,7 @@
       let nf = setInterval(() => {
         if (Captchacheck()) {clearInterval(nf);
           click('.xbtn-green');}}, 1 * 1000);
-      ClickIfExists('#btnddl', 90);
-      ClickIfExists('a.btn.btn-green', 1);});
-    BypassedBybFcSnblogger(/ez4mods.com/, function() {
-      SubmitIfExists('div.text-center form', 2);
-      waitForElm('a#go_d.submitBtn.btn.btn-primary', ez => redirect(ez.href, false));});
-    BypassedBybFcSnblogger(/shortlinkto.info|uplinkto.vip|brbushare.info|uptobhai.ink|uplinkto.hair|shortlinkto.xyz/, function() {
-      ClickIfExists('.btn-block.btn-primary.btn', 2);});
-    BypassedBybFcSnblogger(/jiotech.net|automat.systems|jameeltips.us|cryptonworld.space|linkpress.fun|myartical.xyz/, function() {
-      ClickIfExists('#alf_continue', 3, 'setInterval');});
-    BypassedBybFcSnblogger(/vosan.co/, function() {
-      bp('.elementor-size-lg').removeAttribute('target');
-      ClickIfExists('.elementor-size-lg', 2);
-      ClickIfExists('.wpdm-download-link', 2);});
-    BypassedBybFcSnblogger(/filepress.click|filepress.sbs/, function() {
-      waitForElm('button.py-3:nth-child(2)', fpBtn => fpBtn.click());
+
       ClickIfExists('span.relative', 3, 'setInterval');});
     BypassedBybFcSnblogger(/uploadrar.com|uptomega.me/, function() {
       ClickIfExists('.mngez-free-download', 2);
@@ -1935,18 +1841,7 @@
           click("input[id^='abc']");}, 5 * 1000);
         ClickIfExists('#subbutt', 5);}});
     BypassedBybFcSnblogger(/socialwolvez.com/, () => {
-      let xhr = new XMLHttpRequest();
-      xhr.onload = () => redirect(JSON.parse(xhr.responseText).link.url);
-      xhr.open("GET", "https://us-central1-social-infra-prod.cloudfunctions.net/linksService/link/guid/" + location.pathname.substr(7), true);
-      xhr.send();});
-    BypassedBybFcSnblogger(/mobi2c.com|newforex.online|healthy4pepole.com|world-trips.net|forex-gold.net|healdad.com|world2our.com|otechno.net|gamalk-sehetk.com|mobitaak.com|forexit.online|bluetechno.net/, function() {
-      ClickIfExists('.submitBtn', 3);
-      ClickIfExists('#go_d', 3, 'setInterval');});
-    BypassedBybFcSnblogger(/oydisk.com/, function() {
-      ClickIfExists('.free-element', 2);
-      waitForElm('a.btn.btn-success.w-100.py-3', od => redirect(od.href, false));
-      let oyd = setInterval(() => {
-        if (Captchacheck()) {clearInterval(oyd);
+      let xh
           click('button.btn.btn-sm.btn-primary.text-center');}}, 1 * 1000);});
     BypassedBybFcSnblogger(/turbobit.net/, () => {
       if (elementExists('#turbo-table')) {
@@ -2147,18 +2042,7 @@
       linkver.send(null);
       let linkverraw = XMLHttpRequest.prototype.open;
       XMLHttpRequest.prototype.open = function() {
-        this.addEventListener('load', data => {
-          if (data.currentTarget.responseText.includes('tokens')) {
-            let response = JSON.parse(data.currentTarget.responseText);
-            let target_token = response.data.tokens.TARGET;
-            let ut = localStorage.getItem("X-LINKVERTISE-UT");
-            let linkvertise_link = location.pathname.replace(/\/[0-9]$/, "");
-            fetch(`https://publisher.linkvertise.com/api/v1/redirect/link/static${linkvertise_link}?X-Linkvertise-UT=${ut}`).then(r => r.json()).then(json => {
-              if (json?.data.link.id) {
-                const json_body = {
-                  serial: btoa(JSON.stringify({
-                    timestamp: new Date().getTime(),
-                    random: "6548307",
+        this.addEventListener
                     link_id: json.data.link.id})),
                   token: target_token};
                 fetch(`https://publisher.linkvertise.com/api/v1/redirect/link${linkvertise_link}/target?X-Linkvertise-UT=${ut}`, {
@@ -2227,9 +2111,4 @@
        if (scripts[i].src.indexOf("solvemedia.com") > -1) {
           document.body.addEventListener("keydown", function c(a) {
             if (/^adcopy_response/.test(a.target.id)) {
-              this.removeEventListener(a.type, c);
-              var b = a.target;
-              solvemed(b);
-              b.blur();
-              b.focus();}});
-          break;}}}}})();
+           
