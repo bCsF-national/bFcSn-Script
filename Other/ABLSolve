@@ -114,12 +114,7 @@ this.$ = this.jQuery = jQuery.noConflict(true);
                         $("#i_bg").fadeIn("fast");
 
 
-                        var tit1 = document.title;
-                        setInterval(function(){
-                            var title = document.title;
-                            var tit2 = "ABL!";
-                            document.title = (title == tit2 ? tit1 : tit2 );
-                        }, 1000);
+                       
 
 
                     }
@@ -137,10 +132,6 @@ this.$ = this.jQuery = jQuery.noConflict(true);
                     $(this).hide();
                     abl_clicks++;
 
-                    if( auto_last_word == 1 && abl_clicks == ( abl_cnt -1 ) ) { // auto click last word
-                        $(".abl_btn:visible").click();
-                        abl_clicks++;
-                    }
 
                     if( abl_clicks == abl_cnt ) { // all btns clicked
 
@@ -182,10 +173,3 @@ this.$ = this.jQuery = jQuery.noConflict(true);
                 cl( "No ABL detected" );
             }
 
-
-        }, ( 2 * 1000 ) ); // wait for site fully load (sec)
-
-
-    })
-
-})();
