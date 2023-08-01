@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        GP Captcha Solver
 // @namespace   bFcSn Script
-// @version     14.0
+// @version     14.1
 // @description Solver for Captcha metode GP
 // @author      bFcsnblogger
 // @match       *://*/*
