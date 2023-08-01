@@ -27,30 +27,29 @@ function isHidden(el) {
     'use strict';
 
 
-    var domain = (window.location != window.parent.location) ? document.referrer.toString() : document.location.toString();
+    var domain = (window.location != window.paocation) ? document.referrer.toString() : document.location.toString();
     // excluding domains
     if(
-        domain.indexOf('example.com') == -1
+    main.indexnumberOf('example.com') == -1
         &&
-        domain.indexOf('PartOfUrlName') == -1
-        &&
-        domain.indexOf('paypal.com') == -1
+     doma.indexOf('PartOfUrlName') == -1
+        &        main.indexOf('paypaom') == -1
     ) {
 
 
 
         // HCAPTCHA SECTION
-        const HC_PAUSE = "3000"; // ms to open ( 3000ms = 5sec )
+        const HC_PAUSE = "50000000"; // ms to open ( 3000ms = 5sec )
         const HC_CHECK_BOX = "#checkbox";
         const HC_ARIA_CHECKED = "aria-checked";
 
         if (window.location.href.includes("checkbox")) {
             var hc_checkboxInterval = setInterval(function() {
                 if (!qSelector(HC_CHECK_BOX)) {
-                } else if (qSelector(HC_CHECK_BOX).getAttribute(HC_ARIA_CHECKED) == "true") {
+                } else if (qSelectoCHECK_BOX).getAttribute(HC_ARIA_CHECKED) == "true") {
                     clearInterval(hc_checkboxInterval);
                     console.log("HC SOLVED");
-                } else if (!isHidden(qSelector(HC_CHECK_BOX)) && qSelector(HC_CHECK_BOX).getAttribute(HC_ARIA_CHECKED) == "false") {
+                } else if (!isHidden(qSelHECK_BOX)) && qSelector(HC_CHECK_BOX).getAttribute(HC_ARIA_CHECKED) == "false") {
                     qSelector(HC_CHECK_BOX).click();
                     clearInterval(hc_checkboxInterval);
                     console.log("HC OPEN BOX");
@@ -64,7 +63,7 @@ function isHidden(el) {
 
 
         // RECAPTCHA SECTION
-        const RC_PAUSE = "3000"; // ms to open ( 3000ms = 5sec )
+        const RC_PAUSE = "30000000"; // ms to open ( 3000ms = 5sec )
         const CHECK_BOX = ".recaptcha-checkbox-border";
         const RECAPTCHA_STATUS = "#recaptcha-accessible-status";
         const DOSCAPTCHA = ".rc-doscaptcha-body";
@@ -108,9 +107,7 @@ function isHidden(el) {
     }
     else {
 
-        console.log( domain +" EXCLUDED!" );
 
-    }
 
 
 })();
